@@ -4,30 +4,30 @@ In this Data-Science Competition the task was to predict the fare for taxi rides
 
 Training data: 
 
-It contains around 1.6M records, where each record has  -- features containing different information for a trip. 
+It contains around 1.6M records, where each record has  17 features containing different information for a trip. 
 training data comprises of information captures between January'15 to April'16 while test data contains trip information from May'16 to June'16 
 
 Here are the brief description of given features
 
-TID - Unique ID
-Vendor_ID - Technology service vendor associated with cab company
-New_User - If a new user is taking the ride
-toll_price - toll tax amount
-tip_amount - tip given to driver (if any)
-tax - applicable tax
-pickup_timestamp - time at which the ride started
-dropoff_timestamp - time at which ride ended
-passenger_count - number of passenger during the ride
-pickup_longitude - pickup location longitude data
-pickup_latitude - pickup location latitude data
-rate_category - category assigned to different rates at which a customer is charged
-store_and_fwd - if driver stored the data offline and later forwarded
-dropoff_longitude - drop off longitude data
-dropoff_latitude - drop off latitude data
-payment_type - payment mode used by the customer (CRD = Credit Card, CSH - Cash, DIS - dispute, NOC - No Charge, UNK - Unknown)
-surcharge - surchage applicable on the trip
+  1.TID - Unique ID
+  2.Vendor_ID - Technology service vendor associated with cab company
+  3.New_User - If a new user is taking the ride
+  4.toll_price - toll tax amount
+  5.tip_amount - tip given to driver (if any)
+  6.tax - applicable tax
+  7.pickup_timestamp - time at which the ride started
+  8.dropoff_timestamp - time at which ride ended
+  9.passenger_count - number of passenger during the ride
+  10.pickup_longitude - pickup location longitude data
+  11.pickup_latitude - pickup location latitude data
+  12.rate_category - category assigned to different rates at which a customer is charged
+  13.store_and_fwd - if driver stored the data offline and later forwarded
+  14.dropoff_longitude - drop off longitude data
+  15.dropoff_latitude - drop off latitude data
+  16.payment_type - payment mode used by the customer (CRD = Credit Card, CSH - Cash, DIS - dispute, NOC - No Charge, UNK - Unknown)
+  17.surcharge - surchage applicable on the trip
 
-fare_amount - trip fare (to be predicted)
+  fare_amount - trip fare (to be predicted)
 
 Feature Engineering:
 
