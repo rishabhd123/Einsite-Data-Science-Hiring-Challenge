@@ -32,6 +32,7 @@ fare_amount - trip fare (to be predicted)
 Feature Engineering:
 
 Since the task is to predict the fare_amount. Therefore one should focus on the features than has direct/indirect impact on fare_amount.
+
 Existing Features:
   1.  TID: Not important for prediction
   2.  Vendor_ID: Important. Because, differennt vendors have different policies.
@@ -44,6 +45,7 @@ Existing Features:
   9.  store_and_fwd: Not important
   10. payment_type: Could be. Because some vendor prefers cashless transaction. And for that they provide special discount.
   11. surcharge: Important. Direct Impact on fare.
+  
 Features Extracted:
   1. Distance: Using pickup and dropoff location.
   2. Time Elapsed: Using pickup and dropoff timestamp
