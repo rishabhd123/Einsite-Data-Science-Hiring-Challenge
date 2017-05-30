@@ -9,23 +9,23 @@ training data comprises of information captures between January'15 to April'16 w
 
 Here are the brief description of given features
 
-  1.TID - Unique ID.
-  2.Vendor_ID - Technology service vendor associated with cab company.
-  3.New_User - If a new user is taking the ride.
-  4.toll_price - toll tax amount.
-  5.tip_amount - tip given to driver (if any).
-  6.tax - applicable tax.
-  7.pickup_timestamp - time at which the ride started.
-  8.dropoff_timestamp - time at which ride ended.
-  9.passenger_count - number of passenger during the ride.
-  10.pickup_longitude - pickup location longitude data.
-  11.pickup_latitude - pickup location latitude data.
-  12.rate_category - category assigned to different rates at which a customer is charged.
-  13.store_and_fwd - if driver stored the data offline and later forwarded.
-  14.dropoff_longitude - drop off longitude data.
-  15.dropoff_latitude - drop off latitude data.
-  16.payment_type - payment mode used by the customer (CRD = Credit Card, CSH - Cash, DIS - dispute, NOC - No Charge, UNK - Unknown).
-  17.surcharge - surchage applicable on the trip.
+  1.TID - Unique ID.  
+  2.Vendor_ID - Technology service vendor associated with cab company.  
+  3.New_User - If a new user is taking the ride.  
+  4.toll_price - toll tax amount.  
+  5.tip_amount - tip given to driver (if any).  
+  6.tax - applicable tax.  
+  7.pickup_timestamp - time at which the ride started.  
+  8.dropoff_timestamp - time at which ride ended.  
+  9.passenger_count - number of passenger during the ride.  
+  10.pickup_longitude - pickup location longitude data.  
+  11.pickup_latitude - pickup location latitude data.  
+  12.rate_category - category assigned to different rates at which a customer is charged.  
+  13.store_and_fwd - if driver stored the data offline and later forwarded.  
+  14.dropoff_longitude - drop off longitude data.  
+  15.dropoff_latitude - drop off latitude data.  
+  16.payment_type - payment mode used by the customer (CRD = Credit Card, CSH - Cash, DIS - dispute, NOC - No Charge, UNK - Unknown).  
+  17.surcharge - surchage applicable on the trip.  
 
   fare_amount - trip fare (to be predicted).
 
