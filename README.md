@@ -57,4 +57,7 @@ Features Extracted:
 Distance: I have calculated great circle distance using pickup-dropoff latitude-logitude. One can calculate Vincenty Distance also.
 Time_elapsed: Easy to calculate using pandas.
 
-How to handle null values and outliers: Go through my code.
+How to handle null values and outliers: Go through my code.  
+
+#I had secured 11th rank in this competition with 99.2876 score.  
+Link to the leaderboard: https://www.hackerearth.com/challenge/hiring/einsite-data-science-hiring-challenge/leaderboard/
