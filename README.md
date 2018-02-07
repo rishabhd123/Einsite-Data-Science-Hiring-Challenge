@@ -1,5 +1,7 @@
 # Einsite-Data-Science-Hiring-Challenge
 
+https://www.hackerearth.com/challenge/hiring/einsite-data-science-hiring-challenge/machine-learning/the-cab-service-1/
+
 In this Data-Science Competition the task was to predict the fare for taxi rides given the details of rides.
 
 Training data: 
